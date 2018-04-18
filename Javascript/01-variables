@@ -1,0 +1,45 @@
+console.log('hola mundo');
+var mutar;// undefined
+var nombre = 'Silvana';
+var edad = 28;
+var deudas = 124.12;
+var fechaNacimiento = new Date();
+var casado = false;
+var estoyVacio = null; //false
+var noEstoyDefinido = undefined; //false
+if(estoyVacio){
+    console.log('verdadero');
+} else {
+    console.log('falso');
+}
+//Json
+//ctrl + a= seleccionar
+//ctrl + alt = formatear
+var usuario = {
+    "nombre": "Silvana",
+    apellido: 'Malan',
+    edad: 25,
+    imprimirEnConsola: function(){
+    console.log(this.nombre + ''+)
+    }
+};
+console.log(usuario.nombre);
+delete usuario.edad;
+console.log(usuario);
+usuario.cedula = '1726513813';
+console.log(usuario);
+console.log(typeof nombre);
+function sumarDosNumeros(numeroUno, numeroDos){
+    return numeroUno + numeroDos;
+}
+console.log(sumarDosNumeros(1,2));//3
+var sumarDosNumerosVersionDos = function
+noImportaSiEscriboElNombre(numeroUno, numeroDos)
+
+usuario.imprimirEnConsola();
+console.log(usuario.imprimirEnConsola);
+
+
+
+
+
