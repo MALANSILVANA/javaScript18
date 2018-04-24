@@ -42,7 +42,7 @@ var Usuario = /** @class */ (function () {
 var carlos = {
     nombre: 'carlos',
     edad: 18,
-    esposa: new Usuario(mNombre, 'carla,mEdad:19')
+    esposa: new Usuario(mNombre, 'carla,mEdad:19'),
 };
 //let silvana = new Usuario(mNombre:'silvana',
 //mEdad)
